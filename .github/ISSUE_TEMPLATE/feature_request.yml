@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a new feature, enhancement, or proposal.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What user or business problem are you trying to solve?
+      placeholder: A clear and concise problem statement.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: Describe your preferred solution.
+      placeholder: What should we build?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative options or trade-offs?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - API / App
+        - Protocol / Architecture
+        - Demo
+        - Documentation
+        - Tooling / CI
+        - Governance
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know this feature is done?
+      placeholder: Bullet list of expected outcomes.

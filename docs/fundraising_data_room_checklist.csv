@@ -1,0 +1,16 @@
+module,material,description,owner,priority,status,due_date,evidence_path,verification_rule
+Narrative,Funding_Deck,10-12页融资叙事（问题/方案/市场/壁垒/财务）,CEO,P0,in_progress,2026-04-10,docs/investor/deck_v1.pptx,与MRR/PoC/留存口径一致
+Commercial,Customer_List,客户分层清单（潜客/PoC/付费/续约）,SalesOps,P0,pending,2026-04-07,docs/investor/customer_list.xlsx,客户状态与CRM一致
+Commercial,POC_Cases,2-3个POC案例（上线前后指标对比）,CS,P0,pending,2026-04-12,docs/investor/poc_cases/,每个案例含可复核数据
+Finance,12M_Model,12个月三情景财务模型（成本/收入/现金流）,Finance,P0,done,2026-03-31,docs/finance_model_template.csv,假设含来源与区间
+Finance,Sensitivity,定价与回款敏感性分析,Finance,P0,in_progress,2026-04-08,docs/investor/pricing_sensitivity.xlsx,覆盖单价/毛利/DSO三因子
+Finance,KPI_Dashboard,MRR/PoC/留存/DSO周更看板,RevenueOps,P0,pending,2026-04-09,docs/investor/kpi_dashboard.xlsx,每周固定更新时间戳
+Compliance,Compliance_Matrix,功能合规标签与红线说明,Legal,P0,pending,2026-04-11,docs/compliance/compliance_matrix.md,与产品流程逐项映射
+Compliance,Privacy_and_Data,隐私条款与数据最小化规范,Legal,P1,pending,2026-04-14,docs/compliance/privacy_policy.md,抽样流程可复现
+Product,Architecture,系统架构图与关键模块说明,CTO,P1,pending,2026-04-13,docs/architecture/,版本与发布记录一致
+Product,Roadmap,12-18个月产品路线图与里程碑,PM,P1,pending,2026-04-15,docs/product/roadmap.md,里程碑可验收
+Security,SLA_and_Security,SLA指标与安全控制说明,CTO,P1,pending,2026-04-16,docs/security/sla_security.md,与客户合同条款一致
+Governance,Cap_Table,股权结构与期权池方案,Finance,P0,pending,2026-04-10,docs/legal/cap_table.xlsx,与工商/董事会决议一致
+Governance,Corporate_Docs,章程/董事会决议/历史协议,Legal,P0,pending,2026-04-10,docs/legal/corporate_docs/,完整性检查100%
+Ops,Runway_Plan,现金流预案（一级/二级预警动作）,Finance,P0,done,2026-03-31,docs/finance_fundraising_agent_v1.md,触发条件可量化
+Ops,Pipeline_Review,周度销售漏斗与回款评审纪要,SalesOps,P1,pending,2026-04-05,docs/investor/pipeline_review/,连续4周可追溯
